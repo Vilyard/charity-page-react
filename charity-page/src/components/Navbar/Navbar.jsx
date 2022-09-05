@@ -11,29 +11,36 @@ function Navbar() {
         <nav>
 
             <div className='navbar-container'>
-
-            <Link to="/"> <img src={CharitioLogo} alt="" />   </Link>
-
+            <div className='img-container'>
+            <img src={CharitioLogo} alt="" />
+            </div>
             <div className='center-buttons'>
-                <Link to="home"><button>
+            <button>
+                <Link to="home">
                     Home
-                </button></Link>
-                <Link to="about"><button>
+                </Link>
+                </button>
+                <button>
+                <Link to="about">
                     About
-                </button></Link>
-                <Link to="contact"><button>
+                </Link>
+                </button>
+                <button><Link to="contact">
                     Contact
-                </button></Link>
+                </Link>
+                </button>
             </div>
 
             <div className='right-buttons'>
-                <Link to="contact"><button>
+            <button id='donate-btn'><Link to="contact">
                     Donate Now
-                </button></Link>
-
-                <Link to="contact"><button>
+                </Link>
+                </button>
+                <button id='search-nav'>
+                <Link to="contact">
                     <BiSearch />
-                </button></Link>
+                </Link>
+                </button>
 
             </div>
 
