@@ -13,7 +13,7 @@
     font-size: 60px;
     font-weight: 400;
     line-height: 85px;
-    margin: 10px 0 25px;
+    margin: 10px 0px 25px;
 }
 
 .first-section-first-div p {
@@ -47,12 +47,16 @@
 .home-first-section {
     display: grid;
     grid-auto-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 150px;
 }
 
 .first-section-first-div {
       grid-column-start: 1;
       grid-column-end: 1;
       margin-left: 20px;
+      width: 70%;
 }
 
 .first-section-second-div {
@@ -65,4 +69,6 @@
     grid-column-start: 3;
     grid-column-end: 3;
     text-align: right;
+    
 }
+

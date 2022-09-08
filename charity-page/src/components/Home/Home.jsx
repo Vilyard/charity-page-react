@@ -3,13 +3,14 @@ import "../Home/Home.css"
 import kid1 from "../Images/kid1.png"
 import totalProjects from "../Images/totalprojects.png"
 import kid2 from "../Images/kid2.png"
-
+import FirstSectionCarousel from './FirstSectionCarousel'
 
 const Home = () => {
 
 
 
   return (
+    
     <div className='home-container'>
 
       <div className='home-first-section'>
@@ -23,10 +24,12 @@ const Home = () => {
 
         <div className='first-section-second-div'>
           <img src={kid1} alt="" />
+          <FirstSectionCarousel />
         </div>
 
         <div className='first-section-third-div'>
-          <img src={totalProjects} alt="" />
+          <img src={totalProjects} alt=""/>
+          <br />
           <img src={kid2} alt="" />
         </div>
 
