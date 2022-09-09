@@ -3,7 +3,15 @@ import "../Home/Home.css"
 import kid1 from "../Images/kid1.png"
 import totalProjects from "../Images/totalprojects.png"
 import kid2 from "../Images/kid2.png"
-import FirstSectionCarousel from './FirstSectionCarousel'
+import medicine from "../Images/medicine.png"
+import faucet from "../Images/water-tap.png"
+import vegetable from "../Images/vegetable.png"
+import hat from "../Images/hat.png"
+
+
+// import FirstSectionSlider from '../Sliders/FirstSectionSlider'
+// import { FirstSectionSilderData } from "../Sliders/FirstSectionSilderData"
+
 
 const Home = () => {
 
@@ -24,7 +32,7 @@ const Home = () => {
 
         <div className='first-section-second-div'>
           <img src={kid1} alt="" />
-          <FirstSectionCarousel />
+          {/* <FirstSectionSlider items={FirstSectionSilderData} /> */}
         </div>
 
         <div className='first-section-third-div'>
@@ -33,6 +41,36 @@ const Home = () => {
           <img src={kid2} alt="" />
         </div>
 
+      </div>
+      <div className='home-second-section'>
+        <div className='icon-div'>
+
+          <div className='first-box'>
+                <div>
+                <img src={vegetable}/>
+                </div>
+            <a href="#">Healthy Food</a>
+          </div>
+          <div className='second-box'>
+                  <div>
+                <img src={faucet}/>
+                </div>
+          <a href="#">Clean Water</a>
+          </div>
+          <div className='third-box'>
+                <div>
+              <img src={medicine}/>
+              </div>
+          <a href="#">Medical Care</a>
+          </div>
+          <div className='fourth-box'>
+              <div>
+            <img src={hat}/>
+              </div>
+          <a href="#">Child Education</a>
+          </div>
+
+        </div>
       </div>
 
     </div>
