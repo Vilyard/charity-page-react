@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Home/Home.css"
-import FirstSection from '../Home/Sections/firstSection/firstSection.jsx'
+import FirstSection from './Sections/firstSection/firstSection.jsx'
 import SecondSection from './Sections/secondSection/secondSection.jsx'
 import ThirdSection from './Sections/thirdSection/thirdSection.jsx'
 

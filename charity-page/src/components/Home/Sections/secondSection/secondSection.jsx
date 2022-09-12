@@ -3,7 +3,7 @@ import medicine from "../../../Images/medicine.png"
 import faucet from "../../../Images/water-tap.png"
 import vegetable from "../../../Images/vegetable.png"
 import hat from "../../../Images/hat.png"
-import '../secondSection/secondSection.css'
+import './secondSection.css'
 
 function secondSection() {
   return (

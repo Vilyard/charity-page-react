@@ -1,5 +1,5 @@
 import React from 'react'
-import '../firstSection/firstSection.css'
+import './firstSection.css'
 import kid1 from '../../../Images/kid1.png'
 import totalProjects from '../../../Images/totalprojects.png'
 import kid2 from '../../../Images/kid2.png'

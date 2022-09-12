@@ -1,7 +1,33 @@
 .home-third-section {
     grid-row-start: 3;
     grid-row-end: 3;
+ 
 }
+
+
+.third-container {
+    grid-auto-columns: repeat (2, 1fr);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+  
+}
+
+.left-third-section{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding-left: 300px;
+}
+
+.right-third-section{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-right: 500px;
+    
+}
+
+
 
 .right-third-section h4 {
     color: #ef5f34;
@@ -29,7 +55,6 @@
     cursor: pointer;
     line-height: 1.5;
     text-align: center;
-    display: inline-block;
     font-weight: 500;
     padding: 10px 25px;
     border: 0;
@@ -46,10 +71,6 @@
     position: absolute;
     left: 0;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    content: "\f11a";
-    font-family: Flaticon;
     color: #ef5f34;
 }
 

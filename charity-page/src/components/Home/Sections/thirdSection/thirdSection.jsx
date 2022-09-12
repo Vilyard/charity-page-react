@@ -7,7 +7,7 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 function thirdSection() {
     return (
         <div className='home-third-section'>
-
+            <div className='third-container'>
             <div className='left-third-section'>
 
                 <img src={pictureThirdSection} alt='picture third section' />
@@ -29,6 +29,7 @@ function thirdSection() {
                 </ul>
                 <button>More About</button>
 
+            </div>
             </div>
 
         </div>
