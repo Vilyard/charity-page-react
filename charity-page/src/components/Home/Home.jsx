@@ -23,7 +23,7 @@ const Home = () => {
 
       <div className='home-first-section'>
 
-        <div className='first-section-first-div'>
+      <div className='first-section-first-div'>
           <h3>Help The Poor Children</h3>
           <h1>Your Marcy Can Change Someone’s Life</h1>
           <p>We help local nonprofits access the funding, tools, training, and support they need to become more.</p>
@@ -44,32 +44,30 @@ const Home = () => {
       </div>
       <div className='home-second-section'>
         <div className='icon-div'>
-
           <div className='first-box'>
-                <div>
-                <img src={vegetable}/>
-                </div>
+            <div className='image-box-container'>
+              <img src={vegetable} />
+            </div>
             <a href="#">Healthy Food</a>
           </div>
           <div className='second-box'>
-                  <div>
-                <img src={faucet}/>
-                </div>
-          <a href="#">Clean Water</a>
+            <div className='image-box-container'>
+              <img src={faucet} />
+            </div>
+            <a href="#">Clean Water</a>
           </div>
           <div className='third-box'>
-                <div>
-              <img src={medicine}/>
-              </div>
-          <a href="#">Medical Care</a>
+            <div className='image-box-container'>
+              <img src={medicine} />
+            </div>
+            <a href="#">Medical Care</a>
           </div>
           <div className='fourth-box'>
-              <div>
-            <img src={hat}/>
-              </div>
-          <a href="#">Child Education</a>
+            <div className='image-box-container'>
+              <img src={hat} />
+            </div>
+            <a href="#">Child Education</a>
           </div>
-
         </div>
       </div>
 
