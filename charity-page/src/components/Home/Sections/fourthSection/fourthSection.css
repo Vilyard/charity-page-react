@@ -43,35 +43,49 @@
 .lower-column-container{
     display: grid;
     grid-auto-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 50px;
     align-content: center;
     justify-content: center;
 }
 
 .lower-column-container div{
-    padding: 15px;
+    padding: 5px;
     box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
     border-radius: 15px;
     background: #fff;
+   
 }
 .lower-column-container a{
+    color: #212158;
+    transition: all .2s;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+   text-align: inherit;
+}
+
+.lower-column-container img{
+    text-align: center;
+
+}
+
+.lower-column-container a:hover{
+    color: #ef5f34;
 }
 
 .education-div{
     grid-column-start: 1;
     grid-column-end: 1;
-    border: 2px solid black;
-  
+
 }
+
 .food-div{
     grid-column-start: 2;
     grid-column-end: 2;
-    border: 2px solid black;
+
 }
 
 .medicine-div{
     grid-column-start: 3;
     grid-column-end: 3;
-    border: 2px solid black;
 }
