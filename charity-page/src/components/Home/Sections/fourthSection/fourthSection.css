@@ -1,0 +1,77 @@
+.home-fourth-section{
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.fourth-container{
+    grid-auto-rows: repeat (2, 1fr);
+    display: grid;  
+}
+
+.fourth-upper-container{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.fourth-upper-container h4{
+    font-size: 1.2rem;
+    color: #ef5f34;
+    font-family: Roboto Slab,serif;
+}
+
+.fourth-upper-container h2{
+    font-size: 2.66667rem;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Roboto Slab,serif;
+    margin: 15px 0 20px;
+}
+
+.fourth-upper-container p{
+    color: #4f555a;
+    line-height: 1.8em;
+    margin-left: 790px ;
+    margin-right: 790px;
+}
+
+
+.fourth-lower-container{
+    grid-row-start: 2;
+    grid-row-end:2;
+}
+
+.lower-column-container{
+    display: grid;
+    grid-auto-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.lower-column-container div{
+    padding: 15px;
+    box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
+    border-radius: 15px;
+    background: #fff;
+}
+.lower-column-container a{
+    text-decoration: none;
+}
+
+.education-div{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: 2px solid black;
+  
+}
+.food-div{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: 2px solid black;
+}
+
+.medicine-div{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border: 2px solid black;
+}

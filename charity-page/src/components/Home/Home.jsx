@@ -3,6 +3,7 @@ import "../Home/Home.css"
 import FirstSection from './Sections/firstSection/firstSection.jsx'
 import SecondSection from './Sections/secondSection/secondSection.jsx'
 import ThirdSection from './Sections/thirdSection/thirdSection.jsx'
+import FourthSection from './Sections/fourthSection/fourthSection.jsx'
 
 const Home = () => {
 
@@ -13,7 +14,7 @@ const Home = () => {
       < FirstSection />
       < SecondSection />
       < ThirdSection />
-
+      < FourthSection />
     </div>
   )
 }
