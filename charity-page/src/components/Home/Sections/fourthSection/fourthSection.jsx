@@ -6,6 +6,7 @@ import Food from "../../../Images/food.png"
 import FoodProgress from "../../../Images/food-progress.png"
 import Education from "../../../Images/education.png"
 import EducationProgress from "../../../Images/education-progress.png"
+import Woman from "../../../Images/woman-fourth-section.png"
 
 
 const fourthSection = () => {
@@ -23,26 +24,41 @@ const fourthSection = () => {
                     <div className='education-div'>
                         <img src={Education} />
                         <br />
-                        <a href="#">Help To Build a Secure Life Of a Poor Children.</a>
+                        <h2><a href="#">Help To Build a Secure Life Of a Poor Children.</a></h2>
                         <br />
                         <img src={EducationProgress} />
                         <hr />
+                        <div className='fourth-section-donate'>
+                            <img src={Woman} />
+                            <p><a href="#">Laura Falary</a></p>
+                            <button>Donate Now</button>
+                        </div>
                     </div>
                     <div className='food-div'>
                         <img src={Food}/>
                         <br />
-                        <a href="#">Ensure Clean Water To The African Kids.</a>
+                        <h2><a href="#">Ensure Clean Water To The African Kids.</a></h2>
                         <br />
                         <img src={FoodProgress} />
                         <hr />
+                        <div className='fourth-section-donate'>
+                            <img src={Woman} />
+                            <p><a href="#">Laura Falary</a></p>
+                            <button>Donate Now</button>
+                        </div>
                     </div>
                     <div className='medicine-div'>
                         <img src={FourthMedicine} />
                         <br />
-                        <a href="#">Your Help Can Save A Human Life From Death.</a>
+                        <h2><a href="#">Your Help Can Save A Human Life From Death.</a></h2>
                         <br />
                         <img src={FourthMedicineProgress} />
                         <hr />
+                        <div className='fourth-section-donate'>
+                            <img src={Woman} />
+                            <p><a href="#">Laura Falary</a></p>
+                            <button>Donate Now</button>
+                        </div>
                     </div>
                 </div>
             </div>

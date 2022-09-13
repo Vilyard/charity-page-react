@@ -34,6 +34,37 @@
     margin-right: 790px;
 }
 
+.fourth-section-donate{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    
+}
+.fourth-section-donate p{
+    margin-left: 10px;
+}
+
+.fourth-section-donate button{
+
+    margin-left: 60px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 40px;
+    border: 1px solid #5dc4b8;
+    color: #212158;
+    transition: all .2s;
+}
+.fourth-section-donate button:hover{
+    text-decoration: none;
+    background-color: #5dc4b8;
+    color: white;
+}
+
 
 .fourth-lower-container{
     grid-row-start: 2;
@@ -46,28 +77,31 @@
     grid-gap: 50px;
     align-content: center;
     justify-content: center;
+    width: 100%;
 }
 
 .lower-column-container div{
-    padding: 5px;
     box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
     border-radius: 15px;
     background: #fff;
-   
+
+}
+.lower-column-container h2{
+    font-size: 20px;
+    width: 250px;
+}
+.lower-column-container hr{
+    width: 85%;
+    opacity: 0.3;
 }
 .lower-column-container a{
     color: #212158;
     transition: all .2s;
     text-decoration: none;
-    font-size: 20px;
     font-weight: 600;
-   text-align: inherit;
+   
 }
 
-.lower-column-container img{
-    text-align: center;
-
-}
 
 .lower-column-container a:hover{
     color: #ef5f34;
@@ -76,7 +110,7 @@
 .education-div{
     grid-column-start: 1;
     grid-column-end: 1;
-
+   
 }
 
 .food-div{
