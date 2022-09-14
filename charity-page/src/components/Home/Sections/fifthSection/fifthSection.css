@@ -1,0 +1,37 @@
+.home-fifth-section {
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.fifth-container {
+    display: grid;
+    grid-auto-rows: repeat (2, 1fr);
+    background: #FEF6F3;
+}
+
+.fifth-upper-container {
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.fifth-upper-container h4 {
+    font-size: 1.2rem;
+    color: #ef5f34;
+    font-family: Roboto Slab,serif;
+}
+
+.fifth-upper-container h2{
+    font-size: 2.66667rem;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Roboto Slab,serif;
+    margin: 15px 0 20px;
+    color: #212158;
+}
+
+.fifth-upper-container p{
+    color: #4f555a;
+    line-height: 1.8em;
+}
+
