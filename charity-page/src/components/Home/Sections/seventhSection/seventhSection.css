@@ -1,0 +1,27 @@
+.home-seventh-section {
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+.seventh-container {
+    background-image: url("../../../Images/shape.png"),linear-gradient(rgba(239,95,52,.75),#ED4918);
+    
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.seventh-container ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.seventh-container li {
+    margin-left: 20px;
+}
+
+#volunteer-pic {
+    position: relative;
+    z-index: 100;
+    opacity: 0.50;
+}
