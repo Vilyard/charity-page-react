@@ -114,6 +114,9 @@
 .soul-div{
     grid-column-start: 1;
     grid-column-end: 1;
+
+    box-sizing: border-box;
+    overflow: hidden;
    
 }
 
@@ -121,9 +124,40 @@
     grid-column-start: 2;
     grid-column-end: 2;
 
+    box-sizing: border-box;
+    overflow: hidden;
+
 }
 
 .gift-div{
     grid-column-start: 3;
     grid-column-end: 3;
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.soul-div img {
+    width: 400px;
+    height: 300px;
+    transition: transform 0.5s ease;
+}
+.soul-div img:hover {
+    transform: scale(1.15);
+}
+.poverty-div img {
+    width: 400px;
+    height: 300px;
+    transition: transform 0.5s ease;
+}
+.poverty-div img:hover {
+    transform: scale(1.15);
+}
+.gift-div img {
+    width: 400px;
+    height: 300px;
+    transition: transform 0.5s ease;
+}
+.gift-div img:hover {
+    transform: scale(1.15);
 }
