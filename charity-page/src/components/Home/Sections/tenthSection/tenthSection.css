@@ -1,0 +1,36 @@
+.home-tenth-section{
+    grid-row-start: 10;
+    grid-row-end: 10;
+}
+
+.tenth-container{
+    grid-auto-rows: repeat (2, 1fr);
+    display: grid;  
+}
+
+.tenth-upper-container{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+.tenth-upper-container h4{
+    font-size: 1.2rem;
+    color: #ef5f34;
+    font-family: Roboto Slab,serif;
+}
+
+.tenth-upper-container h2{
+    font-size: 2.66667rem;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Roboto Slab,serif;
+    margin: 15px 0 20px;
+}
+
+.tenth-upper-container p{
+    color: #4f555a;
+    line-height: 1.8em;
+    margin-left: 790px ;
+    margin-right: 790px;
+}
