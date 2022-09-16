@@ -7,6 +7,7 @@ import FourthSection from './Sections/fourthSection/fourthSection.jsx'
 import FifthSection from './Sections/fifthSection/fifthSection.jsx'
 import SixthSection from './Sections/sixthSection/sixthSection'
 import SeventhSection from './Sections/seventhSection/seventhSection'
+import EightSection from './Sections/eightSection/eightSection'
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
       < FifthSection />
       < SixthSection />
       < SeventhSection />
+      < EightSection />
     </div>
   )
 }
