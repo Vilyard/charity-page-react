@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import CharitioLogo from "../Images/CharitioLogo.png"
 import { BiSearch } from "react-icons/bi"
 import "../Navbar/Navbar.css"
+import ScrollToTop from './scrollToTop'
 
 
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
 
             <div className='navbar-container'>
             <div className='img-container'>
-            <img src={CharitioLogo} alt="" />
+            <img src={CharitioLogo} id="charitioLogo" alt="" />
             </div>
             <div className='center-buttons'>
             <button>
@@ -45,6 +46,10 @@ function Navbar() {
             </div>
 
             </div>
+
+           < ScrollToTop />
+
+
 
 
 
