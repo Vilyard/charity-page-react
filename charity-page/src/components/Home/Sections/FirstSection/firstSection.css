@@ -1,3 +1,4 @@
+@media screen and (min-device-width: 1440px){
 .first-section-first-div h3 {
     font-size: 22px;
     color: #ef5f34;
@@ -39,16 +40,7 @@
     background: linear-gradient(270deg,#41b2a5,rgba(93,196,184,.75));
 }
 
-.home-first-section {
-    grid-row-start: 1;
-    grid-row-end: 1;
 
-    display: grid;
-    grid-auto-columns: repeat(3,1fr);
-    align-items: center;
-    justify-items: center;
-    margin-top: 150px;
-}
 
 .first-section-first-div {
       grid-column-start: 1;
@@ -68,4 +60,15 @@
     grid-column-end: 3;
     text-align: right;
     
+}
+}
+.home-first-section {
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    display: grid;
+    grid-auto-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 150px;
 }

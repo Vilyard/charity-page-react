@@ -12,6 +12,9 @@ function Navbar() {
         <nav>
 
             <div className='navbar-container'>
+            <div className='ham-menu'>
+                placeholder
+            </div>
             <div className='img-container'>
             <img src={CharitioLogo} id="charitioLogo" alt="" />
             </div>
@@ -42,17 +45,10 @@ function Navbar() {
                     <BiSearch />
                 </Link>
                 </button>
-
             </div>
 
             </div>
-
-           < ScrollToTop />
-
-
-
-
-
+            < ScrollToTop />
         </nav>
 
     )

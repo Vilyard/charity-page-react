@@ -2,7 +2,7 @@
     grid-row-start: 5;
     grid-row-end: 5;
 }
-
+@media screen and (min-device-width: 1440px){
 .fifth-container {
     display: grid;
     grid-auto-rows: repeat (2, 1fr);
@@ -34,4 +34,4 @@
     color: #4f555a;
     line-height: 1.8em;
 }
-
+}

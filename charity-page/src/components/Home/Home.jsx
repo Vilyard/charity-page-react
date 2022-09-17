@@ -16,7 +16,7 @@ const Home = () => {
   return (
     
     <div className='home-container'>
-
+{/* 
       < FirstSection />
       < SecondSection />
       < ThirdSection />
@@ -26,7 +26,7 @@ const Home = () => {
       < SeventhSection />
       < EightSection />
       < NinthSection />
-      < TenthSection />
+      < TenthSection /> */}
     </div>
   )
 }

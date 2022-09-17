@@ -2,6 +2,7 @@
     grid-row-start: 8;
     grid-row-end: 8;
 }
+@media screen and (min-device-width: 1440px){
 .eigth-container{
     grid-auto-rows: repeat (2, 1fr);
     display: grid;  
@@ -160,4 +161,5 @@
 }
 .gift-div img:hover {
     transform: scale(1.15);
+}
 }

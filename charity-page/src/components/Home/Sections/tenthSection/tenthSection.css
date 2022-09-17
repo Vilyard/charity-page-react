@@ -2,7 +2,7 @@
     grid-row-start: 10;
     grid-row-end: 10;
 }
-
+@media screen and (min-device-width: 1440px){
 .tenth-container{
     grid-auto-rows: repeat (2, 1fr);
     display: grid;  
@@ -33,4 +33,5 @@
     line-height: 1.8em;
     margin-left: 790px ;
     margin-right: 790px;
+}
 }

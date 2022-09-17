@@ -2,7 +2,7 @@
     grid-row-start: 7;
     grid-row-end: 7;
 }
-
+@media screen and (min-device-width: 1440px){
 .seventh-container {
     background-image: url("../../../Images/shape.png"),linear-gradient(rgba(239,95,52,.75),#ED4918);
     
@@ -54,6 +54,4 @@
     background-repeat: no-repeat;
 }
 
-
-
-
+}

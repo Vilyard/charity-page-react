@@ -2,7 +2,7 @@
     grid-row-start: 9;
     grid-row-end: 9;
 }
-
+@media screen and (min-device-width: 1440px){
 .ninth-container{
     grid-auto-rows: repeat (2, 1fr);
     display: grid;  
@@ -146,4 +146,5 @@
 
 .ninth-section-comments svg{
     margin-left: 55px;
+}
 }

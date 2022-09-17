@@ -4,7 +4,7 @@
  
 }
 
-
+@media screen and (min-device-width: 1440px){
 .third-container {
     grid-auto-columns: repeat (2, 1fr);
     display: grid;
@@ -86,4 +86,5 @@
 
 .right-third-section svg {
     fill: #ef5f34;
+}
 }

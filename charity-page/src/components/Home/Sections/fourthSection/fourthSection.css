@@ -2,6 +2,8 @@
     grid-row-start: 4;
     grid-row-end: 4;
 }
+
+@media screen and (min-device-width: 1440px){
 .fourth-container{
     grid-auto-rows: repeat (2, 1fr);
     display: grid;  
@@ -122,4 +124,5 @@
 .medicine-div{
     grid-column-start: 3;
     grid-column-end: 3;
+}
 }
