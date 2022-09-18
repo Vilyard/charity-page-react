@@ -54,7 +54,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- https://www.frontendmentor.io/
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
