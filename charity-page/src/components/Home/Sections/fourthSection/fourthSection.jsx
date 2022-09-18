@@ -22,11 +22,11 @@ const fourthSection = () => {
             <div className='fourth-lower-container'>
                 <div className='lower-column-container'>
                     <div className='education-div'>
-                        <img src={Education} />
+                        <img src={Education} className="img-template" />
                         <br />
                         <h2><a href="#">Help To Build a Secure Life Of a Poor Children.</a></h2>
                         <br />
-                        <img src={EducationProgress} />
+                        <img src={EducationProgress} className="img-template-progress" />
                         <hr />
                         <div className='fourth-section-donate'>
                             <img src={Woman} />
@@ -35,11 +35,11 @@ const fourthSection = () => {
                         </div>
                     </div>
                     <div className='food-div'>
-                        <img src={Food}/>
+                        <img src={Food} className="img-template" />
                         <br />
                         <h2><a href="#">Ensure Clean Water To The African Kids.</a></h2>
                         <br />
-                        <img src={FoodProgress} />
+                        <img src={FoodProgress} className="img-template-progress"   />
                         <hr />
                         <div className='fourth-section-donate'>
                             <img src={Woman} />
@@ -48,11 +48,11 @@ const fourthSection = () => {
                         </div>
                     </div>
                     <div className='medicine-div'>
-                        <img src={FourthMedicine} />
+                        <img src={FourthMedicine} className="img-template" />
                         <br />
                         <h2><a href="#">Your Help Can Save A Human Life From Death.</a></h2>
                         <br />
-                        <img src={FourthMedicineProgress} />
+                        <img src={FourthMedicineProgress} className="img-template-progress"  />
                         <hr />
                         <div className='fourth-section-donate'>
                             <img src={Woman} />

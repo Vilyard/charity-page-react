@@ -19,12 +19,12 @@ const Home = () => {
 
       < FirstSection />
       < SecondSection />
-      {/* < ThirdSection />
+      < ThirdSection />
       < FourthSection />
       < FifthSection />
       < SixthSection />
       < SeventhSection />
-      < EightSection />
+      {/* < EightSection />
       < NinthSection />
       < TenthSection />  */}
     </div>

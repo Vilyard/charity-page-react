@@ -1,11 +1,12 @@
 .home-seventh-section {
-    grid-row-start: 7;
-    grid-row-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 7;
 }
-@media screen and (min-device-width: 1440px){
-.seventh-container {
-    background-image: url("../../../Images/shape.png"),linear-gradient(rgba(239,95,52,.75),#ED4918);
-    
+@media screen and (min-device-width: 1440px) {
+  .seventh-container {
+    background-image: url("../../../Images/shape.png"),
+      linear-gradient(rgba(239, 95, 52, 0.75), #ed4918);
+
     border-radius: 20px;
     display: grid;
 
@@ -14,26 +15,26 @@
     justify-items: center;
     margin: 120px;
     margin-bottom: 20px;
-}
+  }
 
-.seventh-first-item{
+  .seventh-first-item {
     grid-column-start: 1;
     grid-column-end: 1;
-}
-.seventh-first-item h1{
+  }
+  .seventh-first-item h1 {
     max-width: 560px;
     font-size: 50px;
     font-weight: 500;
     line-height: 80px;
     margin: 0;
     color: #fff;
-}
-.seventh-second-item{
+  }
+  .seventh-second-item {
     grid-column-start: 2;
     grid-column-end: 2;
-}
+  }
 
-.seventh-second-item button{
+  .seventh-second-item button {
     padding: 15px 20px;
     background: #fff;
     border-radius: 5px;
@@ -43,15 +44,60 @@
     font-size: 22px;
     justify-content: center;
     align-items: center;
-    font-family: Roboto Slab,serif;
+    font-family: Roboto Slab, serif;
     border: none;
-}
-.seventh-third-item{
+  }
+  .seventh-third-item {
     grid-column-start: 3;
     grid-column-end: 3;
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
+  }
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .seventh-container {
+    background-image: url("../../../Images/shape.png"),
+      linear-gradient(#ed4918, rgba(239, 95, 52, 0.75));
+    border-radius: 20px;
+    display: grid;
+    grid-auto-rows: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .seventh-third-item {
+    display: none;
+  }
+
+  .seventh-first-item {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .seventh-first-item h1 {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .seventh-second-item {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .seventh-second-item button {
+    width: 175px;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 5px;
+    color: #062265;
+    font-weight: 500;
+    font-family: Roboto Slab, serif;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+  }
 }
