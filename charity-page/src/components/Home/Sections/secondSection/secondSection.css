@@ -73,3 +73,74 @@
     margin: -45px;
 }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+    .icon-div{
+        display:grid;
+        grid-auto-rows: repeat(4, 1fr);
+        grid-gap: 50px;
+        justify-items: center;
+        align-items: center;
+        padding: 90px 0 60px;
+        background-color: #fff;
+        top: -75px;
+        text-align: center;
+    }
+    .icon-div a {
+        text-decoration: none;
+        color:#212158;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .icon-div a:hover{
+        color:#ef5f34;
+    }
+    .icon-div img{
+        width: 60px;
+        height: 60px;
+        line-height: 175px;
+        text-align: center;
+        border-radius: 50%;
+        position: relative;
+        top: -30px;
+        padding: 15px 15px;
+        background-color: #fff;
+        margin: 15px 15px;
+    }
+    .first-box{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        background: #CAF7F2;
+        border-radius: 15px;
+        box-shadow: none;
+        padding: 15px 60.3px 35px 60.3px;
+    }
+    .second-box{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background: #FDE4DD;
+        border-radius: 15px;
+        box-shadow: none;
+        padding: 15px 65px 35px 65px;
+    }
+    .third-box{
+        grid-row-start: 3;
+        grid-row-end: 3;
+        background: #D2ECF4;
+        border-radius: 15px;
+        box-shadow: none;
+        padding: 15px 65px 35px 65px;
+    }
+    .fourth-box{
+        grid-row-start: 4;
+        grid-row-end: 4;
+        background: #FDF3E0;;
+        border-radius: 15px;
+        box-shadow: none;
+        padding: 15px 60.3px 35px 60.3px;
+    }
+    .image-box-container {
+        margin: -45px;
+    }
+
+}

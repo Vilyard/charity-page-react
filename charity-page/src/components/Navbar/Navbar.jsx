@@ -7,13 +7,14 @@ import ScrollToTop from './scrollToTop'
 
 
 function Navbar() {
+
     return (
 
-        <nav>
+        <nav className='navbar'>
 
             <div className='navbar-container'>
             <div className='ham-menu'>
-                placeholder
+              placeholder
             </div>
             <div className='img-container'>
             <img src={CharitioLogo} id="charitioLogo" alt="" />

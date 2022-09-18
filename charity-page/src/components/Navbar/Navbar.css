@@ -126,7 +126,15 @@
         display: none;
     }
 
-
+    .navbar {
+        position: sticky;
+        z-index: 555;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        border: none;
+    }
 
 }
 
