@@ -163,3 +163,127 @@
     transform: scale(1.15);
 }
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .eigth-container{
+        grid-auto-rows: repeat (2, 1fr);
+        display: grid;  
+    }
+    
+    .eigth-upper-container{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        text-align: center;
+    }
+    
+    .eigth-upper-container h4{
+        font-size: 1.2rem;
+        color: #ef5f34;
+        font-family: Roboto Slab,serif;
+    }
+    
+    .eigth-upper-container h2{
+        font-size: 20px;
+        position: relative;
+        text-transform: capitalize;
+        font-family: Roboto Slab,serif;
+        color: #212158;
+    }
+    
+    .eigth-upper-container p{
+        color: #4f555a;
+        line-height: 1.8em;
+    }
+    
+    
+    .eigth-lower-container{
+        grid-row-start: 2;
+        grid-row-end:2;
+     
+    }
+    
+    .eigth-lower-column-container p{
+        margin-left: 24px;
+        color: #4f555a;
+        line-height: 24px;
+        font-size: 13px;
+    }
+    
+    .eigth-lower-column-container h4{
+        font-weight: 400;
+        color: #107569;
+        font-size: 13px;
+        margin-left: 24px;
+    }
+    
+    
+    .eigth-lower-column-container{
+        display: grid;
+        grid-auto-rows: repeat(3, 1fr);
+        grid-gap: 50px;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .eigth-lower-column-container div{
+        box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
+        border-radius: 15px;
+        background: #fff;
+       margin-left: 18px;
+       margin-right: 18px;
+    
+    }
+    .eigth-lower-column-container h2{
+        font-size: 20px;
+        margin-left: 24px;
+    }
+    .eigth-lower-column-container a{
+        color: #212158;
+        transition: all .2s;
+        text-decoration: none;
+        font-weight: 600;
+       
+    }
+    
+    .eigth-lower-column-container img{
+        height: 180px;
+        width: 240px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    
+    .soul-div{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    
+    .poverty-div{
+        grid-row-start: 2;
+        grid-row-end: 2;
+    
+        box-sizing: border-box;
+        overflow: hidden;
+    
+    }
+    
+    .gift-div{
+        grid-row-start: 3;
+        grid-row-end: 3;
+    
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+   
+    
+
+
+
+}

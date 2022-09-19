@@ -20,7 +20,7 @@ const eightSection = () => {
                 <div className='soul-div'>
                     <img src={EigthPic1} />
                     <h4>25 Nov, 2021 </h4>
-                    <h2><a href="#">Help To Build a Secure Life Of a Poor Children.</a></h2>
+                    <h2><a href="#">Help The Poor From Your Soal</a></h2>
                     <p>
                     There are many variations of passages of Lorem Ipsum available.
                     </p>
@@ -29,7 +29,7 @@ const eightSection = () => {
                 <div className='poverty-div'>
                     <img src={EigthPic2}/>
                     <h4>26 Nov, 2021 </h4>
-                    <h2><a href="#">Ensure Clean Water To The African Kids.</a></h2>
+                    <h2><a href="#">Help Children Raise Out Of Proverty.</a></h2>
                     <p>
                     There are many variations of passages of Lorem Ipsum available.
                     </p>
@@ -37,7 +37,7 @@ const eightSection = () => {
                 <div className='gift-div'>
                     <img src={EigthPic3} />
                     <h4>27 Nov, 2021 </h4>
-                    <h2><a href="#">Your Help Can Save A Human Life From Death.</a></h2>
+                    <h2><a href="#">Provideing Education Is The Valuable Gift</a></h2>
                     <p>
                     There are many variations of passages of Lorem Ipsum available.
                     </p>

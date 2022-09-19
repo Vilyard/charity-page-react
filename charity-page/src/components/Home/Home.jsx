@@ -24,9 +24,9 @@ const Home = () => {
       < FifthSection />
       < SixthSection />
       < SeventhSection />
-      {/* < EightSection />
+      < EightSection />
       < NinthSection />
-      < TenthSection />  */}
+      < TenthSection /> 
     </div>
   )
 }

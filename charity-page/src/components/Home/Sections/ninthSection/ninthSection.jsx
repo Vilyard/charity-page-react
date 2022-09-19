@@ -25,42 +25,33 @@ function ninthSection() {
                 <div className='ninth-lower-column-container'>
                     <div className='ninth-lower-first-div'>
                         <img src={UpperPic1} />
-                        <h2><a href="#">Help To Build a Secure Life Of a Poor Children.</a></h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available.
-                        </p>
+                        <h2><a href="#">Giving The Poor Is A Great Satisfiction Of heart.</a></h2>
                         <hr />
                         <div className='ninth-section-comments'>
                             <img src={LowerPic1} />
-                            <p><a href="#">Jenefer Willy</a></p>
-                           <p> <BsChatText /> 35 </p>
+                            <p ><a href="#">Jenefer Willy</a></p>
+                           <p id='ninth-section-comments-template'> <BsChatText /> 35 </p>
                         </div>
 
                     </div>
                     <div className='ninth-lower-second-div'>
                         <img src={UpperPic2} />
-                        <h2><a href="#">Ensure Clean Water To The African Kids.</a></h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available.
-                        </p>
+                        <h2><a href="#">Your Help Can Make Someone’s life Easier.</a></h2>
                         <hr />
                         <div className='ninth-section-comments'>
                             <img src={LowerPic2} />
                             <p><a href="#">Laura Falary</a></p>
-                            <p> <BsChatText /> 80 </p>
+                            <p id='ninth-section-comments-template'> <BsChatText /> 80 </p>
                         </div>
                     </div>
                     <div className='ninth-lower-third-div'>
                         <img src={UpperPic3} />
-                        <h2><a href="#">Your Help Can Save A Human Life From Death.</a></h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available.
-                        </p>
+                        <h2><a href="#">Give Education, It’s The Best Gift Ever.</a></h2>
                         <hr />
                         <div className='ninth-section-comments'>
                             <img src={LowerPic3} />
                             <p><a href="#">Laura Falary</a></p>
-                            <p> <BsChatText /> 95 </p>
+                            <p id='ninth-section-comments-template'> <BsChatText /> 95 </p>
                         </div>
                     </div>
                 </div>
