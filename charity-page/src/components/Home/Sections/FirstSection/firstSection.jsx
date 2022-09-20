@@ -3,6 +3,8 @@ import './firstSection.css'
 import kid1 from '../../../Images/kid1.png'
 import totalProjects from '../../../Images/totalprojects.png'
 import kid2 from '../../../Images/kid2.png'
+import FirstSectionSlider from '../../../Sliders/FirstSectionSlider.jsx'
+import { FirstSectionSilderData } from '../../../Sliders/FirstSectionSilderData.jsx'
 
 function firstSection() {
   return (
@@ -18,7 +20,7 @@ function firstSection() {
 
   <div className='first-section-second-div'>
     <img src={kid1} alt="" />
-    {/* <FirstSectionSlider items={FirstSectionSilderData} /> */}
+    <FirstSectionSlider items={FirstSectionSilderData} />
   </div>
 
   <div className='first-section-third-div'>

@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 @media screen and (min-device-width: 1440px){
+
+    .ham-menu{
+        display: none;
+    }
+
 .img-container{
     width: 240px;
     height: 100px;
