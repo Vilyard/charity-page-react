@@ -3,16 +3,21 @@ import { Link } from "react-router-dom"
 import CharitioLogo from "../Images/CharitioLogo.png"
 import { BiSearch } from "react-icons/bi"
 import "../Navbar/Navbar.css"
+import ScrollToTop from './scrollToTop'
 
 
 function Navbar() {
+
     return (
 
-        <nav>
+        <nav className='navbar'>
 
             <div className='navbar-container'>
+            <div className='ham-menu'>
+              placeholder
+            </div>
             <div className='img-container'>
-            <img src={CharitioLogo} alt="" />
+            <img src={CharitioLogo} id="charitioLogo" alt="" />
             </div>
             <div className='center-buttons'>
             <button>
@@ -41,13 +46,10 @@ function Navbar() {
                     <BiSearch />
                 </Link>
                 </button>
-
             </div>
 
             </div>
-
-
-
+            < ScrollToTop />
         </nav>
 
     )
