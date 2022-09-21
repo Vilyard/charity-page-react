@@ -1,0 +1,38 @@
+.item-fifthSection {
+   padding: 8px;
+}
+
+.item-fifthSection img {
+    width: 250px;
+    height: 280px;
+    pointer-events: none;
+    margin-bottom: 13px;
+}
+
+.item-fifthSection a {
+    color: #212158;
+    transition: all .2s;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.item-fifthSection a:hover{
+    color: #ef5f34;
+}
+
+.item-fifthSection p {
+    color: #4F555A;
+    font-size: 12px;
+}
+
+.inner-carousel {
+   display: flex;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+

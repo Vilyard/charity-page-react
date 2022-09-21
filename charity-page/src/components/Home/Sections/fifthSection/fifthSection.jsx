@@ -1,5 +1,6 @@
 import React from 'react'
 import '../fifthSection/fifthSection.css'
+import FifthSectionSlider from '../../../Sliders/FifthSectionSlider.jsx'
 
 function fifthSection() {
     return (
@@ -16,7 +17,7 @@ function fifthSection() {
                 </div>
 
                 <div className='fifth-lower-container'>
-
+                    < FifthSectionSlider />
                 </div>
 
             </div>

@@ -17,9 +17,6 @@ const SecondSlider = ({items}) => {
                 setSecondImage(secondImage === length - 1 ? 0 : secondImage + 1);
                 setThirdImageImage(thirdImage === length - 1 ? 0 : thirdImage + 1);
                 setFourthImage(fourthImage === length - 1 ? 0 : fourthImage + 1);
-                console.log(firstImage)
-                console.log(secondImage)
-                console.log(thirdImage)
             }, 2000);
             return () => clearInterval(interval);
         },
