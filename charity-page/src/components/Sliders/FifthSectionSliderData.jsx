@@ -8,21 +8,35 @@ import fifthSectionSixthPic from "../Images/fifth-carousel-pic6.jpg"
 
 export const FifthSectionSilderData = [
     {
-        image: fifthSectionFirstPic
+        image: fifthSectionFirstPic,
+        name: "Angeica Laura" ,
+        description: "Volunteer",
     },
     {
-        image: fifthSectionSecoundPic
+        image: fifthSectionSecoundPic,
+        name: "Maria Belziana" ,
+        description: "Volunteer",
+
     },
     {
-        image: fifthSectionThirdPic
+        image: fifthSectionThirdPic,
+        name: "Robert Chrils" ,
+        description: "Team Leader",
+        
     },
     {
-        image: fifthSectionFourthPic
+        image: fifthSectionFourthPic,
+        name: "William Frost" ,
+        description: "Volunteer",
     },
     {
-        image: fifthSectionFifthPic 
+        image: fifthSectionFifthPic,
+        name: "Zenefer Marry" ,
+        description: "Volunteer",
     },
     {
-        image: fifthSectionSixthPic 
+        image: fifthSectionSixthPic,
+        name: "Devid Harmin" ,
+        description: "Volunteer",
     }
 ]
