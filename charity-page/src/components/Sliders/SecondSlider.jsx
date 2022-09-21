@@ -2,8 +2,7 @@ import React, {useState, useEffect} from 'react'
 import "../Sliders/FirstSectionSlider.css"
 import { FirstSectionSilderData } from './FirstSectionSilderData'
 
-
-const FirstSectionSlider = ({items}) => {
+const SecondSlider = ({items}) => {
     const [firstImage, setFirstImage] = useState(0);
     const [secondImage, setSecondImage] = useState (1);
     const [thirdImage, setThirdImageImage] = useState(2);
@@ -69,20 +68,9 @@ const FirstSectionSlider = ({items}) => {
     
                      </div>
 
-                     <div className={index === thirdImage ? "item-active" : "item"} key={index}>
-                    {index === thirdImage && 
-                        (  
-                            <img src={items.image} alt="test" className='first-section-img' />
-                            
-                        )
-                    }    
-    
-                     </div>
-
                    
                  </div>
-
-                 
+   
                 
             )
         })}
@@ -90,4 +78,4 @@ const FirstSectionSlider = ({items}) => {
   )
 }
 
-export default FirstSectionSlider
+export default SecondSlider

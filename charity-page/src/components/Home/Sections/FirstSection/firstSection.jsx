@@ -5,6 +5,7 @@ import totalProjects from '../../../Images/totalprojects.png'
 import kid2 from '../../../Images/kid2.png'
 import FirstSectionSlider from '../../../Sliders/FirstSectionSlider.jsx'
 import { FirstSectionSilderData } from '../../../Sliders/FirstSectionSilderData.jsx'
+import  SecondSlider  from '../../../Sliders/SecondSlider.jsx'
 
 function firstSection() {
   return (
@@ -20,7 +21,11 @@ function firstSection() {
 
   <div className='first-section-second-div'>
     <img src={kid1} alt="" />
-    <FirstSectionSlider items={FirstSectionSilderData} />
+    <div className='sliders-component'>
+    < FirstSectionSlider items={FirstSectionSilderData} />
+    < SecondSlider items = {FirstSectionSilderData} />
+    </div>
+
   </div>
 
   <div className='first-section-third-div'>
