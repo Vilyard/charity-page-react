@@ -4,9 +4,7 @@ import fifthSectionThirdPic from "../Images/fifth-carousel-pic3.jpg"
 import fifthSectionFourthPic from "../Images/fifth-carousel-pic4.jpg"
 import fifthSectionFifthPic from "../Images/fifth-carousel-pic5.jpg"
 import fifthSectionSixthPic from "../Images/fifth-carousel-pic6.jpg"
-
-
-export const FifthSectionSilderData = [
+export const FifthSectionSliderData = [
     {
         image: fifthSectionFirstPic,
         name: "Angeica Laura" ,
@@ -16,13 +14,11 @@ export const FifthSectionSilderData = [
         image: fifthSectionSecoundPic,
         name: "Maria Belziana" ,
         description: "Volunteer",
-
     },
     {
         image: fifthSectionThirdPic,
         name: "Robert Chrils" ,
         description: "Team Leader",
-        
     },
     {
         image: fifthSectionFourthPic,
@@ -40,3 +36,4 @@ export const FifthSectionSilderData = [
         description: "Volunteer",
     }
 ]
+export default FifthSectionSliderData
