@@ -4,7 +4,7 @@ import firstSectionThirdPic from "../Images/first-carousel-pic3.png"
 import firstSectionFourthPic from "../Images/first-carousel-pic4.png"
 
 
-export const FirstSectionSilderData = [
+export const FirstSectionSliderData = [
     {
         image: firstSectionFirstPic
     },
@@ -16,5 +16,8 @@ export const FirstSectionSilderData = [
     },
     {
         image: firstSectionFourthPic
+    },
+    {
+        image: firstSectionFirstPic
     }
 ]
