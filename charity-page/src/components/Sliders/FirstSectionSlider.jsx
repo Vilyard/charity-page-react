@@ -16,8 +16,6 @@ const FirstSectionSlider = () => {
             return (
               <motion.div className='item-firstSection' key={type}>
                 <img src={type.image} alt='test' />
-                <a href='#'> {type?.name} </a>
-                <p> {type?.description} </p>
               </motion.div>
             );
           })}

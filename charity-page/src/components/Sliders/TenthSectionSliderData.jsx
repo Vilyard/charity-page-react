@@ -23,3 +23,5 @@ export const TenthSectionSilderData = [
         image: tenthSectionFifthPic,
     }
 ]
+
+export default TenthSectionSliderData

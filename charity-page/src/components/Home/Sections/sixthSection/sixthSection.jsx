@@ -1,5 +1,6 @@
 import React from 'react'
 import '../sixthSection/sixthSection.css'
+import SixthSectionSlider from '../../../Sliders/SixthSectionSlider.jsx'
 
 function sixthSection() {
   return (
@@ -16,7 +17,7 @@ function sixthSection() {
                 </div>
 
                 <div className='sixth-lower-container'>
-
+                < SixthSectionSlider />
                 </div>
 
             </div>

@@ -33,6 +33,10 @@
     color: #4f555a;
     line-height: 1.8em;
 }
+.sixth-lower-container{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
 }
 
 
