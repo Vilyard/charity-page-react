@@ -26,9 +26,9 @@ To get a local copy up and running follow these steps
 
 - To install the project you need to enter the directory you've cloned. Open a terminal and follow these next steps:
  > cd "DIR-PATH-OF-ClONED-PROJECT". (to enter said directory)
- > npm install (to install all the necessary modules and dependencies);
- > npm install framer-motion;
- > npm install react-icons --save;
+ - npm install (to install all the necessary modules and dependencies);
+ - npm install framer-motion;
+ - npm install react-icons --save;
  
 ### Usage
 
