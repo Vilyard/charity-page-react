@@ -4,7 +4,7 @@ import { FifthSectionSilderData } from './FifthSectionSilderData'
 
 const FifthSectionSlider = () => {
   return (
-    <div>FifthSectionSlider</div>
+    <div>FifthSectiofgdfgnSlider</div>
   )
 }
 
