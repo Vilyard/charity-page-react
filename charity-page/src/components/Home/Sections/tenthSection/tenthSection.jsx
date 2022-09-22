@@ -1,5 +1,6 @@
 import React from 'react'
 import '../tenthSection/tenthSection.css'
+import TenthSectionSlider from '../../../Sliders/TenthSectionSlider.jsx'
 
 function tenthSection() {
   return (
@@ -11,6 +12,11 @@ function tenthSection() {
             <p>There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form,</p>
         </div>
+
+        <div className='tenth-lower-container'>
+                    < TenthSectionSlider />
+                </div>
+        
     </div>
     </div>
   )

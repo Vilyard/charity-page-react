@@ -5,8 +5,7 @@ import tenthSectionFourthPic from "../Images/tenth-carousel-pic4.jfif"
 import tenthSectionFifthPic from "../Images/tenth-carousel-pic5.jfif"
 
 
-
-export const TenthSectionSilderData = [
+export const TenthSectionSliderData = [
     {
         image: tenthSectionFirstPic
     },
