@@ -41,8 +41,6 @@
     background: linear-gradient(270deg,#41b2a5,rgba(93,196,184,.75));
 }
 
-
-
 .first-section-first-div {
       grid-column-start: 1;
       grid-column-end: 1;
@@ -73,6 +71,13 @@
     margin-top: 150px;
 }
 
+.sliders-component {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 767px) {
 
     .home-first-section {
@@ -81,6 +86,10 @@
         display: grid;
         margin-top: 0px;
         background: #EBFCFA;
+    }
+
+    .sliders-component {
+        display: none;
     }
 
     .first-section-first-div h3 {
