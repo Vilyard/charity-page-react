@@ -20,13 +20,13 @@ const Home = () => {
       < FirstSection />
      < SecondSection />
       < ThirdSection />
-      {/* < FourthSection />
+      < FourthSection />
       < FifthSection />
       < SixthSection />
       < SeventhSection />
       < EightSection />
       < NinthSection />
-      < TenthSection />  */}
+      < TenthSection /> 
     </div>
   )
 }
