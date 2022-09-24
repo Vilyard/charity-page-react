@@ -18,15 +18,15 @@ const Home = () => {
     <div className='home-container'>
 
       < FirstSection />
-      < SecondSection />
+     < SecondSection />
       < ThirdSection />
-      < FourthSection />
+      {/* < FourthSection />
       < FifthSection />
       < SixthSection />
       < SeventhSection />
       < EightSection />
       < NinthSection />
-      < TenthSection /> 
+      < TenthSection />  */}
     </div>
   )
 }

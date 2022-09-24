@@ -115,8 +115,6 @@
        width: 300px;
     }
     
-    
-    
     .right-third-section h4 {
         color: #ef5f34;
         font-size: 18px;
@@ -171,6 +169,91 @@
     .right-third-section ul{
             list-style: none;
             margin-bottom: 30px;
+    }
+    
+    .right-third-section svg {
+        fill: #ef5f34;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width:1023px) { 
+    .third-container{
+        grid-auto-rows: repeat (2, 1fr);
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-left: 30px;
+    }
+    .left-third-section{
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width: 100%;
+    }
+    
+    .right-third-section{
+        grid-row-start: 2;
+        grid-row-end: 2;
+        
+        margin-left: 15px;
+    }
+    .left-third-section img{
+       height: 500px;
+       width: 500px;
+       text-align: left;
+    }
+    
+    .right-third-section h4 {
+        color: #ef5f34;
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    
+    .right-third-section h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        line-height: 50px;
+        color: #212158;
+        margin-right: 290px;
+        font-weight: 700;
+    }
+    
+    .right-third-section p {
+        font-size: 16px;
+        color: #4f555a;
+        line-height: 1.8em;
+        margin-right: 290px;
+    }
+    
+    .right-third-section button{
+        color: #fff;
+        background: linear-gradient(270deg,rgba(93,196,184,.75),#41b2a5);
+        cursor: pointer;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 500;
+        padding: 10px 25px;
+        border: 0;
+        border-radius: 6px;
+        text-transform: capitalize;
+        font-size: 15px;
+    }
+    
+    .right-third-section button:hover {
+        background: linear-gradient(270deg,#41b2a5,rgba(93,196,184,.75));
+    }
+    
+    .right-third-section li {
+        font-size: 16px;
+        color: #4f555a;
+        line-height: 1.8em;
+        
+    }
+    
+    .right-third-section ul{
+            list-style: none;
+            margin-bottom: 30px;
+            width: 100%;
     }
     
     .right-third-section svg {
