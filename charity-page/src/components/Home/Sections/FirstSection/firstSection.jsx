@@ -27,9 +27,9 @@ function firstSection() {
   </div>
 
   <div className='first-section-third-div'>
-    <img src={totalProjects} alt=""/>
+    <img src={totalProjects} id="totalprojectsPic"  alt=""/>
     <br />
-    <img src={kid2} alt="" />
+    <img src={kid2}alt="" />
   </div>
 </div>
   
