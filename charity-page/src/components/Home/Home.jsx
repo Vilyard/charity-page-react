@@ -22,11 +22,11 @@ const Home = () => {
       < ThirdSection />
       < FourthSection />
       < FifthSection />
-      {/* < SixthSection />
+      < SixthSection />
       < SeventhSection />
       < EightSection />
       < NinthSection />
-      < TenthSection />  */}
+      < TenthSection /> 
     </div>
   )
 }
