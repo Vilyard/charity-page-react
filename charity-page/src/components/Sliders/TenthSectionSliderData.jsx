@@ -3,10 +3,7 @@ import tenthSectionSecoundPic from "../Images/tenth-carousel-pic2.jfif"
 import tenthSectionThirdPic from "../Images/tenth-carousel-pic3.jfif"
 import tenthSectionFourthPic from "../Images/tenth-carousel-pic4.jfif"
 import tenthSectionFifthPic from "../Images/tenth-carousel-pic5.jfif"
-
-
-
-export const TenthSectionSilderData = [
+export const TenthSectionSliderData = [
     {
         image: tenthSectionFirstPic
     },
@@ -23,3 +20,4 @@ export const TenthSectionSilderData = [
         image: tenthSectionFifthPic,
     }
 ]
+export default TenthSectionSliderData

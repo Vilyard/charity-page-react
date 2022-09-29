@@ -1,11 +1,26 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+import FifthSectionSliderData from '../Sliders/FifthSectionSliderData.jsx'
 import "../Sliders/FifthSectionSlider.css"
-import { FifthSectionSilderData } from './FifthSectionSilderData'
-
-const FifthSectionSlider = () => {
+function FifthSectionSlider() {
+   const items = FifthSectionSliderData.map(type => {
+                return (
+                  <div className='item-fifthSection' key={type}>
+                    <img src={type.image} alt='test' />
+                    <br />
+                    <a href='#'> {type?.name} </a>
+                    <p> {type?.description} </p>
+                  </div>
+                );
+              })
   return (
-    <div>FifthSectionSlider</div>
+    <div className='test1'>
+      <AliceCarousel mouseTracking items={items} responsive={{0: {items:1}, 768: {items: 3}, 1024: {items: 6}}}
+       disableDotsControls={true} disableButtonsControls={true} infinite={true} autoPlay={true} autoPlayInterval={3000}
+>
+      </AliceCarousel>
+    </div>
   )
 }
-
 export default FifthSectionSlider
