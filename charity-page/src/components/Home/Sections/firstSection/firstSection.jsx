@@ -5,7 +5,6 @@ import totalProjects from '../../../Images/totalprojects.png'
 import kid2 from '../../../Images/kid2.png'
 import FirstSectionSlider from '../../../Sliders/FirstSectionSlider.jsx'
 
-
 function firstSection() {
   return (
    
