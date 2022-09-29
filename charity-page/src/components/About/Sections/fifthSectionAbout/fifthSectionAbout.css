@@ -1,0 +1,42 @@
+.about-fifth-section {
+    grid-row: 5/5;
+}
+
+.about-fifth-container {
+    background-image: url("../../../Images/shape.png"),
+      linear-gradient(rgba(239, 95, 52, 0.75), #ed4918);
+    border-radius: 20px;
+    display: grid;
+    grid-auto-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 120px;
+    text-align: center;
+  }
+
+  .about-fifth-container h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+  .about-fifth-container p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+
+  .about-fifthSection-first-item {
+   grid-column: 1/1;
+}
+.about-fifthSection-second-item {
+    grid-column: 2/2;
+}
+  
+  .about-fifthSection-third-item {
+    grid-column: 3/3;
+  }
+  .about-fifthSection-fourth-item {
+    grid-column: 4/4;
+  }

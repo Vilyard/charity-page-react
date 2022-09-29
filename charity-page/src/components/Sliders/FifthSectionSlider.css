@@ -1,3 +1,7 @@
+.test1 {
+    width: 100vw;
+ }
+
 .item-fifthSection {
     padding: 8px;
  }
@@ -22,10 +26,37 @@
      color: #4F555A;
      font-size: 12px;
  }
- .inner-carousel {
-    display: flex;
+
+ @media screen and (min-device-width: 768px) and (max-device-width:1023px) {
+
+    .item-fifthSection {
+        width: 256px;
+        padding: 0px;
+     }
+     .item-fifthSection img {
+         pointer-events: none;
+         margin-bottom: 13px;
+     }
+     .item-fifthSection a {
+         color: #212158;
+         transition: all .2s;
+         text-decoration: none;
+         font-weight: 600;
+         font-size: 20px;
+         margin-bottom: 0px;
+     }
+     .item-fifthSection a:hover{
+         color: #EF5F34;
+     }
+     .item-fifthSection p {
+         color: #4F555A;
+         font-size: 12px;
+     }
  }
- .carousel {
-     cursor: grab;
-     overflow: hidden;
- }
+
+  @media screen and (min-device-width: 320px) and (max-device-width:767px) {
+
+    .item-fifthSection {
+        margin-left: 25px;
+     }
+} 

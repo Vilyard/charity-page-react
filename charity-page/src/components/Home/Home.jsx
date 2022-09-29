@@ -17,16 +17,16 @@ const Home = () => {
     
     <div className='home-container'>
 
-      < FirstSection />
+      {/* < FirstSection />
      < SecondSection />
       < ThirdSection />
-      < FourthSection />
+      < FourthSection /> */}
       < FifthSection />
-      < SixthSection />
+      {/* < SixthSection />
       < SeventhSection />
       < EightSection />
       < NinthSection />
-      < TenthSection /> 
+      < TenthSection />  */}
     </div>
   )
 }

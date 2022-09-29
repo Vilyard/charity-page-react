@@ -4,6 +4,8 @@ import FirstSectionAbout from '../About/Sections/firstSectionAbout/firstSectionA
 import SecondSectionAbout from './Sections/secondSectionAbout/secondSectionAbout'
 import ThirdSectionAbout from './Sections/thirdSectionAbout/thirdSectionAbout'
 import FourthSectionAbout from './Sections/fourthSectionAbout/fourthSectionAbout'
+import FifthSectionAbout from './Sections/fifthSectionAbout/fifthSectionAbout'
+import SixthSectionAbout from './Sections/sixthSectionAbout/sixthSectionAbout'
 
 const About = () => {
   return (
@@ -13,6 +15,8 @@ const About = () => {
       < SecondSectionAbout />
       < ThirdSectionAbout />
       < FourthSectionAbout />
+      < FifthSectionAbout />
+      < SixthSectionAbout />
     </div>
   )
 }
