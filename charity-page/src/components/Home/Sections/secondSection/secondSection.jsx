@@ -4,7 +4,6 @@ import faucet from "../../../Images/water-tap.png"
 import vegetable from "../../../Images/vegetable.png"
 import hat from "../../../Images/hat.png"
 import './secondSection.css'
-
 function secondSection() {
   return (
     <div className='home-second-section'>
@@ -37,5 +36,4 @@ function secondSection() {
   </div>
   )
 }
-
 export default secondSection

@@ -7,8 +7,6 @@ import FoodProgress from "../../../Images/food-progress.png"
 import Education from "../../../Images/education.png"
 import EducationProgress from "../../../Images/education-progress.png"
 import Woman from "../../../Images/woman-fourth-section.png"
-
-
 const fourthSection = () => {
   return (
     <div className='home-fourth-section'>
@@ -16,7 +14,7 @@ const fourthSection = () => {
             <div className='fourth-upper-container'>
                     <h4>We Love To Help Poor</h4>
                     <h2>Our Featured Campaigns</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, 
+                    <p>There are many variations of passages of Lorem Ipsum available,
                         but the majority have suffered alteration in some form,</p>
             </div>
             <div className='fourth-lower-container'>
@@ -66,5 +64,4 @@ const fourthSection = () => {
     </div>
   )
 }
-
 export default fourthSection

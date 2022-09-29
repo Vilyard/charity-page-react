@@ -10,25 +10,20 @@ import SeventhSection from './Sections/seventhSection/seventhSection'
 import EightSection from './Sections/eightSection/eightSection'
 import NinthSection from './Sections/ninthSection/ninthSection'
 import TenthSection from './Sections/tenthSection/tenthSection'
-
 const Home = () => {
-
   return (
-    
     <div className='home-container'>
-
-      < FirstSection />
-      < SecondSection />
+      {/* < FirstSection />
+     < SecondSection />
       < ThirdSection />
-      < FourthSection />
+      < FourthSection /> */}
       < FifthSection />
-      < SixthSection />
+      {/* < SixthSection />
       < SeventhSection />
       < EightSection />
       < NinthSection />
-      < TenthSection /> 
+      < TenthSection />  */}
     </div>
   )
 }
-
 export default Home

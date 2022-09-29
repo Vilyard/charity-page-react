@@ -6,7 +6,7 @@ import fifthSectionFifthPic from "../Images/fifth-carousel-pic5.jpg"
 import fifthSectionSixthPic from "../Images/fifth-carousel-pic6.jpg"
 
 
-export const FifthSectionSilderData = [
+export const FifthSectionSliderData = [
     {
         image: fifthSectionFirstPic,
         name: "Angeica Laura" ,
