@@ -7,8 +7,6 @@ import LowerPic1 from "../../../Images/brad.jfif"
 import LowerPic2 from "../../../Images/konal.jfif"
 import LowerPic3 from "../../../Images/jenefer.jfif"
 import {BsChatText} from 'react-icons/bs'
-
-
 function ninthSection() {
     return (
         <div className='home-ninth-section'>
@@ -20,7 +18,6 @@ function ninthSection() {
                         but the majority have suffered alteration in some form,</p>
                 </div>
             </div>
-
             <div className='ninth-lower-container'>
                 <div className='ninth-lower-column-container'>
                     <div className='ninth-lower-first-div'>
@@ -32,7 +29,6 @@ function ninthSection() {
                             <p ><a href="#">Jenefer Willy</a></p>
                            <p id='ninth-section-comments-template'> <BsChatText /> 35 </p>
                         </div>
-
                     </div>
                     <div className='ninth-lower-second-div'>
                         <img src={UpperPic2} />
@@ -56,9 +52,7 @@ function ninthSection() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
-
 export default ninthSection

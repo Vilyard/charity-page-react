@@ -4,14 +4,9 @@ import CharitioLogo from "../Images/CharitioLogo.png"
 import { BiSearch } from "react-icons/bi"
 import "../Navbar/Navbar.css"
 import ScrollToTop from './scrollToTop'
-
-
 function Navbar() {
-
     return (
-
         <nav className='navbar'>
-
             <div className='navbar-container'>
             <div className='ham-menu'>
               placeholder
@@ -35,7 +30,6 @@ function Navbar() {
                 </Link>
                 </button>
             </div>
-
             <div className='right-buttons'>
             <button id='donate-btn'><Link to="contact">
                     Donate Now
@@ -47,12 +41,9 @@ function Navbar() {
                 </Link>
                 </button>
             </div>
-
             </div>
             < ScrollToTop />
         </nav>
-
     )
 }
-
 export default Navbar
