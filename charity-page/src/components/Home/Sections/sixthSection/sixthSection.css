@@ -28,10 +28,17 @@
 .sixth-upper-container p{
     color: #4F555A;
     line-height: 1.8em;
+    margin-bottom: 50px;
 }
 .sixth-lower-container{
     grid-row-start: 2;
     grid-row-end: 2;
+ 
+    width: 100vw;
+    align-self: center;
+    justify-self: center;
+    
+
 }
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 767px){
@@ -62,7 +69,9 @@
         line-height: 1.8em;
         margin-left: 40px;
         margin-right: 40px;
+        margin-bottom: 50px;
     }
+
 }
 @media screen and (min-device-width: 768px) and (max-device-width:1023px) {
     .sixth-container {
@@ -92,9 +101,13 @@
         line-height: 1.8em;
         margin-left: 40px;
         margin-right: 40px;
+    
     }
-    .sixth-lower-container p{
-       width: 100%;
+    .sixth-lower-container{
+       width: 100vw;
+       display: flex;
+       justify-content: center;
+      
     }
 }
 @media screen and (min-device-width: 1024px) and (max-device-width:1439px) {
@@ -125,6 +138,7 @@
         line-height: 16px;
         margin-left: 280px;
         margin-right: 280px;
+        margin-bottom: 50px;
     }
     .sixth-lower-container{
         grid-row-start: 2;
