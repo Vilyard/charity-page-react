@@ -13,16 +13,16 @@ import TenthSection from './Sections/tenthSection/tenthSection'
 const Home = () => {
   return (
     <div className='home-container'>
-      {/* < FirstSection />
+      < FirstSection />
      < SecondSection />
-      < ThirdSection />
-      < FourthSection />
+       {/* < ThirdSection />  problem so css */}
+      {/* < FourthSection /> */}  {/* problem so css */}
       < FifthSection />
       < SixthSection />
       < SeventhSection />
-      < EightSection />
-      < NinthSection /> */}
-      < TenthSection /> 
+      {/* < EightSection />  problem so css */}
+      {/* < NinthSection /> */}
+      < TenthSection />  
     </div>
   )
 }

@@ -45,7 +45,7 @@ function TenthSectionSlider() {
               })
   return (
     <div className='tenth-carousel-container'>
-      <AliceCarousel mouseTracking items={items} responsive={{0: {items:1}, 767: {items: 3}, 1023: {items: 5}}}
+      <AliceCarousel mouseTracking items={items} responsive={{0: {items:1}, 767: {items: 4}, 1023: {items: 5}}}
        disableDotsControls={true} disableButtonsControls={true} infinite={true} autoPlay={true} autoPlayInterval={3000}
        autoWidth={true}
 >

@@ -1,6 +1,4 @@
 .home-container {
     display: grid;
     grid-auto-rows: repeat(10, 1fr);
-    width: 100vw;
-    height: 100vh;
 }
