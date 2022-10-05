@@ -16,7 +16,7 @@ function FifthSectionSlider() {
               })
   return (
     <div className='test1'>
-      <AliceCarousel mouseTracking items={items} responsive={{0: {items:1}, 767: {items: 3}, 1023: {items: 6}}}
+      <AliceCarousel mouseTracking items={items} responsive={{0: {items:1}, 767: {items: 3}, 1023: {items: 3}, 1439: {items:4}}}
        disableDotsControls={true} disableButtonsControls={true} infinite={true} autoPlay={true} autoPlayInterval={3000}
 >
       </AliceCarousel>

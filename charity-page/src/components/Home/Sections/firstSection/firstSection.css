@@ -181,7 +181,6 @@
       grid-column-end: 1;
       margin-left: 30px;
       margin-top: 45px;
-      width: 100%;
       margin-bottom: 80px;
 }
 .first-section-second-div {
@@ -193,11 +192,10 @@
 }
 @media screen and (min-device-width: 1024px) and (max-device-width:1439px) {
     .sliders-component {
-        width: 100%;
         text-align: center;
         justify-content: center;
         align-self: center;
-        margin-left: 75px;
+        display: flex;
     }
     
     .first-section-first-div h3 {
@@ -209,14 +207,12 @@
         font-size: 40px;
         font-weight: 400;
         line-height: 85px;
-        margin: 10px 0px 25px;
         color: #212158;
     }
     .first-section-first-div p {
         font-size: 18px;
         color: #676767;
         line-height: 35px;
-        max-width: 595px;
         margin-bottom: 40px;
         font-weight: 400;
     }
@@ -240,13 +236,22 @@
     .first-section-first-div {
           grid-column-start: 1;
           grid-column-end: 1;
-          margin-left: 20px;
-          width: 70%;
+          margin-left: 30px;
+          
+
     }
     .first-section-second-div {
         grid-column-start: 2;
         grid-column-end: 2;
         text-align: right;
+    }
+    .first-section-second-div img{
+        height: 400px;
+        width: 300px;
+    }
+    #first-section-third-div-img{
+        height: 400px;
+        width: 280px;
     }
     .first-section-third-div {
         grid-column-start: 3;
@@ -262,4 +267,10 @@
         justify-items: center;
         margin-top: 150px;
     }
+    #totalprojectsPic{
+        height: 110px;
+    
+    }
 }
+
+
