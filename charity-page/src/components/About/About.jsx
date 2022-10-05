@@ -6,17 +6,21 @@ import ThirdSectionAbout from './Sections/thirdSectionAbout/thirdSectionAbout'
 import FourthSectionAbout from './Sections/fourthSectionAbout/fourthSectionAbout'
 import FifthSectionAbout from './Sections/fifthSectionAbout/fifthSectionAbout'
 import SixthSectionAbout from './Sections/sixthSectionAbout/sixthSectionAbout'
+import SeventhSectionAbout from './Sections/seventhSectionAbout/seventhSectionAbout'
+import EightSectionAbout from './Sections/eightSectionAbout/eightSectionAbout'
 
 const About = () => {
   return (
     <div className='about-container'>
 
-      < FirstSectionAbout />
+      {/* < FirstSectionAbout />
       < SecondSectionAbout />
-      < ThirdSectionAbout />
-      < FourthSectionAbout />
+      < ThirdSectionAbout /> petar responsive 1-2-3 del*/}
+      {/* < FourthSectionAbout />
       < FifthSectionAbout />
-      < SixthSectionAbout />
+      < SixthSectionAbout /> darko 4-5-6 responsive del */} 
+      < SeventhSectionAbout />
+      < EightSectionAbout />
     </div>
   )
 }
