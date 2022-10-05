@@ -5,11 +5,10 @@
     padding: 8px;
  }
  .item-fifthSection img {
-     width: 250px;
-     height: 280px;
-     pointer-events: none;
-     margin-bottom: 13px;
- }
+    pointer-events: none;
+    margin-bottom: 13px;
+}
+
  .item-fifthSection a {
      color: #212158;
      transition: all .2s;
@@ -30,6 +29,12 @@
         width: 256px;
         padding: 0px;
      }
+     .item-fifthSection img {
+        width: 250px;
+        height: 280px;
+        pointer-events: none;
+        margin-bottom: 13px;
+    }
      .item-fifthSection img {
          pointer-events: none;
          margin-bottom: 13px;
@@ -54,4 +59,10 @@
     .item-fifthSection {
         margin-left: 25px;
      }
+     .item-fifthSection img {
+        width: 250px;
+        height: 280px;
+        pointer-events: none;
+        margin-bottom: 13px;
+    }
 }

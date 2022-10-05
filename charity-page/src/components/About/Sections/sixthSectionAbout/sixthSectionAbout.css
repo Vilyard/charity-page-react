@@ -9,19 +9,19 @@
         display: grid;  
     }
     
-    .fourth-upper-container{
+    .about-sixth-upper-container{
         grid-row-start: 1;
         grid-row-end: 1;
         text-align: center;
     }
     
-    .fourth-upper-container h4{
+    .about-sixth-upper-container h4{
         font-size: 1.2rem;
         color: #ef5f34;
         font-family: Roboto Slab,serif;
     }
     
-    .fourth-upper-container h2{
+    .about-sixth-upper-container h2{
         font-size: 2.66667rem;
         position: relative;
         text-transform: capitalize;
@@ -29,25 +29,25 @@
         margin: 15px 0 20px;
     }
     
-    .fourth-upper-container p{
+    .about-sixth-upper-container p{
         color: #4f555a;
         line-height: 1.8em;
         margin-left: 790px ;
         margin-right: 790px;
     }
     
-    .fourth-section-donate{
+    .about-sixth-section-donate{
         display: flex;
         align-items: center;
         justify-items: center;
         width: 100%;
         
     }
-    .fourth-section-donate p{
+    .about-sixth-section-donate p{
         margin-left: 10px;
     }
     
-    .fourth-section-donate button{
+    .about-sixth-section-donatebutton{
     
         margin-left: 60px;
         text-align: center;
@@ -61,19 +61,19 @@
         color: #212158;
         transition: all .2s;
     }
-    .fourth-section-donate button:hover{
+    .about-sixth-section-donate button:hover{
         text-decoration: none;
         background-color: #5dc4b8;
         color: white;
     }
     
     
-    .fourth-lower-container{
+    .about-sixth-lower-container{
         grid-row-start: 2;
         grid-row-end:2;
     }
     
-    .lower-column-container{
+    .about-sixth-lower-column-container{
         display: grid;
         grid-auto-columns: repeat(3, 1fr);
         grid-gap: 50px;
@@ -82,38 +82,38 @@
         width: 100%;
     }
     
-    .lower-column-container div{
+    .about-sixth-lower-column-container div{
         box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
         border-radius: 15px;
         background: #fff;
     
     }
-    .lower-column-container h2{
+    .about-sixth-lower-column-container h2{
         font-size: 20px;
         width: 250px;
     }
-    .lower-column-container hr{
+    .about-sixth-lower-column-containerhr{
         width: 85%;
         opacity: 0.3;
     }
-    .lower-column-container a{
+    .about-sixth-lower-column-container a{
         color: #212158;
         transition: all .2s;
         text-decoration: none;
         font-weight: 600;
     }
-    .lower-column-container a:hover{
+    .about-sixth-lower-column-container a:hover{
         color: #ef5f34;
     }
-    .education-div{
+    .about-sixth-education-div{
         grid-column-start: 1;
         grid-column-end: 1; 
     }
-    .food-div{
+    .about-sixth-food-div{
         grid-column-start: 2;
         grid-column-end: 2;
     }
-    .medicine-div{
+    .about-sixth-medicine-div{
         grid-column-start: 3;
         grid-column-end: 3;
     }

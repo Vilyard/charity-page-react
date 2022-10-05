@@ -12,12 +12,12 @@
 .left-third-section{
     grid-column-start: 1;
     grid-column-end: 1;
-    padding-left: 300px;
+    
 }
 .right-third-section{
     grid-column-start: 2;
     grid-column-end: 2;
-    margin-right: 500px;
+    
 }
 .right-third-section h4 {
     color: #EF5F34;
@@ -210,7 +210,7 @@
     .right-third-section ul{
             list-style: none;
             margin-bottom: 30px;
-            width: 100%;
+           
     }
     .right-third-section svg {
         fill: #EF5F34;

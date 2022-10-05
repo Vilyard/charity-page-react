@@ -14,7 +14,8 @@ export const FirstSectionSliderData = [
     },
     {
         image: firstSectionFourthPic
-    }, {
+    },
+     {
         image: firstSectionThirdPic
     },
 ]

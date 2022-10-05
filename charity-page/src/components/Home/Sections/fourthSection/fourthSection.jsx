@@ -18,7 +18,7 @@ const fourthSection = () => {
                         but the majority have suffered alteration in some form,</p>
             </div>
             <div className='fourth-lower-container'>
-                <div className='lower-column-container'>
+                <div className='fourth-lower-column-container'>
                     <div className='education-div'>
                         <img src={Education} className="img-template" />
                         <br />
