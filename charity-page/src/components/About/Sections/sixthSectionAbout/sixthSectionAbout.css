@@ -1,6 +1,7 @@
 .about-sixth-section{
     grid-row-start: 6;
     grid-row-end: 6;
+    margin-bottom: 80px;
 }
 
 @media screen and (min-device-width: 1440px){
@@ -203,15 +204,15 @@
         .about-sixth-lower-column-container a:hover{
             color: #EF5F34;
         }
-        .education-div{
+        .about-sixth-education-div{
             grid-row-start: 1;
             grid-row-end: 1;
         }
-        .food-div{
+        .about-sixth-food-div{
             grid-row-start: 2;
             grid-row-end: 2;
         }
-        .medicine-div{
+        .about-sixth-medicine-div{
             grid-row-start: 3;
             grid-row-end: 3;
         }
@@ -222,6 +223,7 @@
             width: 100%;
         }
     }
+
     @media screen and (min-device-width: 768px) and (max-device-width:1023px){
         .about-sixth-container{
             grid-auto-rows: repeat (2, 1fr);
@@ -313,15 +315,15 @@
         .about-sixth-lower-column-container a:hover{
             color: #EF5F34;
         }
-        .education-div{
+        .about-sixth-education-div{
             grid-row-start: 1;
             grid-row-end: 1;
         }
-        .food-div{
+        .about-sixth-food-div{
             grid-column-start: 2;
             grid-column-end: 2;
         }
-        .medicine-div{
+        .about-sixth-medicine-div{
             grid-row-start: 3;
             grid-row-end: 3;
         }
@@ -404,11 +406,13 @@
             align-content: center;
             justify-content: center;
             width: 100%;
+           
         }
         .about-sixth-lower-column-container div{
             box-shadow: 0 1px 15px 0 rgb(62 65 159 / 15%);
             border-radius: 15px;
             background: #fff;
+            
         }
         .about-sixth-lower-column-container h2{
             font-size: 20px;
@@ -428,15 +432,15 @@
         .about-sixth-lower-column-container a:hover{
             color: #EF5F34;
         }
-        .education-div{
+        .about-sixth-education-div{
             grid-column-start: 1;
             grid-column-end: 1;
         }
-        .food-div{
+        .about-sixth-food-div{
             grid-column-start: 2;
             grid-column-end: 2;
         }
-        .medicine-div{
+        .about-sixth-medicine-div{
             grid-column-start: 3;
             grid-column-end: 3;
         }

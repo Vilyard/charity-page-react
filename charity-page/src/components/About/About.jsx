@@ -13,14 +13,14 @@ const About = () => {
   return (
     <div className='about-container'>
 
-      {/* < FirstSectionAbout />
+      < FirstSectionAbout />
       < SecondSectionAbout />
-      < ThirdSectionAbout /> petar responsive 1-2-3 del*/}
-      {/* < FourthSectionAbout />
+      < ThirdSectionAbout /> 
+     < FourthSectionAbout />
       < FifthSectionAbout />
-      < SixthSectionAbout /> darko 4-5-6 responsive del */} 
-      < SeventhSectionAbout />
-      < EightSectionAbout />
+      < SixthSectionAbout /> 
+     < SeventhSectionAbout />
+      < EightSectionAbout /> 
     </div>
   )
 }
