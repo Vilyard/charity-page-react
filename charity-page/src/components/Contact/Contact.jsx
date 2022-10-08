@@ -6,12 +6,12 @@ import FourthSectionContact from './Sections/fourthSectionContact/fourthSectionC
 import "../Contact/Contact.css"
 const Contact = () => {
   return (
-    <div className='contact-container'>
+    <div className='contact-page-container'>
 
     < FirstSectionContact />
     < SecondSectionContact />
     < ThirdSectionContact /> 
-   < FourthSectionContact />
+    < FourthSectionContact />
    
   </div>
   )

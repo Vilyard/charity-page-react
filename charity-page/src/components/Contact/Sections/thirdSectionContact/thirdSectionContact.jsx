@@ -40,12 +40,7 @@ const thirdSectionContact = () => {
                 <option value="Subject 3">Subject 3</option>
                 <option value="Subject 4">Subject 4</option>
               </select>
-              <input
-                type="textarea"
-                name="Textarea"
-                id="textarea-field"
-                placeholder="Message"
-              />
+              <textarea placeholder="Message" />
               <button type="submit" id="submit-btn">
                 Send Message
               </button>

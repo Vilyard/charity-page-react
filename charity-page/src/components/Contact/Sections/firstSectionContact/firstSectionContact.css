@@ -2,7 +2,7 @@
     grid-row: 1/1;
 }
 @media screen and (min-device-width: 1440px) {
-.first-section-contact-container {
+.contact-first-section-container1 {
     background: url('../../../Images/about-section-first-pic.jpg') no-repeat top/cover;
     min-height: 400px;
     position: relative;
@@ -11,7 +11,7 @@
     flex-direction: column;
     z-index: 1;
 }
-.first-section-contact-container::before {
+.contact-first-section-container1::before {
     position: absolute;
     left: 0;
     top: 0;
@@ -55,7 +55,7 @@
 }
 
 @media screen and (min-device-width: 1024px) and (max-device-width:1439px) {
-    .first-section-contact-container {
+    .contact-first-section-container1 {
         background: url('../../../Images/about-section-first-pic.jpg') no-repeat top/cover;
         min-height: 400px;
         position: relative;
@@ -64,7 +64,7 @@
         flex-direction: column;
         z-index: 1;
     }
-    .first-section-contact-container::before {
+    .contact-first-section-container1::before {
         position: absolute;
         left: 0;
         top: 0;
@@ -108,7 +108,7 @@
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width:1023px) {
-    .first-section-contact-container {
+    .contact-first-section-container1 {
         background: url('../../../Images/about-section-first-pic.jpg') no-repeat top/cover;
         min-height: 400px;
         position: relative;
@@ -118,7 +118,7 @@
         z-index: 1;
         width: 100%;
     }
-    .first-section-contact-container::before {
+    .contact-first-section-container1::before {
         position: absolute;
         left: 0;
         top: 0;
@@ -151,6 +151,7 @@
         text-decoration: none;
         font-weight: 600;
         margin-bottom: 0px;
+        text-align: center;
     }
     .first-section-contact-centered-div a:hover{
         color: #ef5f34;
@@ -162,7 +163,7 @@
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width:767px) {
-    .first-section-contact-container {
+    .contact-first-section-container1 {
         background: url('../../../Images/about-section-first-pic.jpg') no-repeat top/cover;
         height: 200px;
         width: 100%;
@@ -172,7 +173,7 @@
         flex-direction: column;
         z-index: 1;
     }
-    .first-section-contact-container::before {
+    .contact-first-section-container1::before {
         position: absolute;
         left: 0;
         top: 0;

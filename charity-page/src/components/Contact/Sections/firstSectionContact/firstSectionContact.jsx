@@ -5,7 +5,7 @@ function firstSectionContact() {
   return (
     <div className='contact-first-section'>
 
-      <div className='first-section-contact-container'>
+      <div className='contact-first-section-container1'>
 
       <div className='first-section-contact-centered-div'>
       <h2>Contact Us</h2>
