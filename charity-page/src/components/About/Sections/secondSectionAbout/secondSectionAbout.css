@@ -55,12 +55,13 @@
     width: 100%;
     opacity: 0.5;
 }
-.image-container-second-about-section svg {
+.ghana-video{
     position: relative;
     top: -248px;
     width: 75px;
     height: 75px;
     color: #fff;
+    overflow: hidden;
 }
 }
 
