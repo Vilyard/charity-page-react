@@ -1,7 +1,7 @@
 import React from 'react'
 import '../secondSectionAbout/secondSectionAbout.css'
 import SeconSectionPic from '../../../Images/second-section-about-picture.jpg'
-import {BsFillPlayCircleFill} from 'react-icons/bs'
+import Modal from "../secondSectionAbout/popupSecondSection.jsx"
 
 function secondSectionAbout() {
     return (
@@ -13,8 +13,10 @@ function secondSectionAbout() {
                 <div className='image-container-second-about-section'>
 
                     <img src={SeconSectionPic} alt="second-section-picture" />
-
-                    <BsFillPlayCircleFill />
+                    <div className='ghana-video'>
+                    < Modal />
+                  
+                    </div>
 
                 </div>
 
