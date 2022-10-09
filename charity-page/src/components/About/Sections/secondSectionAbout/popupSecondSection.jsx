@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./popupSecondSection.css";
 import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
+import {BsFillPlayCircleFill} from 'react-icons/bs'
 
 const PopupSecondSection = () => {
     const [modal, setModal] = useState(false);
@@ -18,7 +19,7 @@ const PopupSecondSection = () => {
     return (
         <div className="modal-container">
         <button onClick={openModal} className="">
-          Click Me!
+          < BsFillPlayCircleFill  id="play-button"/>
           {modal ? (
             <section className="modal__bg">
               <div className="modal__align">

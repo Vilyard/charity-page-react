@@ -1,7 +1,6 @@
 import React from 'react'
 import '../secondSectionAbout/secondSectionAbout.css'
 import SeconSectionPic from '../../../Images/second-section-about-picture.jpg'
-import {BsFillPlayCircleFill} from 'react-icons/bs'
 import Modal from "../secondSectionAbout/popupSecondSection.jsx"
 
 function secondSectionAbout() {

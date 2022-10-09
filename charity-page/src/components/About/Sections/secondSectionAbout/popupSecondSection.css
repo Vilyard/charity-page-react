@@ -2,7 +2,28 @@
     font-family: sans-serif;
     text-align: center;
   }
-  
+.modal-container button{
+  background-color: hsla(0,0%,100%,.5);
+  width: 83px;
+  height: 83px;
+  border-radius: 83px;
+  display: inline-block;
+  -webkit-animation: spineer 2s infinite;
+  animation: spineer 2s infinite;
+  z-index: 99;
+  border: 1px solid #fff;
+}
+.modal-container button:hover{
+  cursor: pointer;
+}
+#play-button{
+  content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid #fff;
+}
   .modal__bg {
     position: fixed;
     top: 0;
@@ -109,4 +130,3 @@
       height: auto;
     }
   }
-  
