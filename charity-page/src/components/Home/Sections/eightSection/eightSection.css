@@ -6,6 +6,7 @@
 .eigth-container{
     grid-auto-rows: repeat (2, 1fr);
     display: grid;
+    margin: 50px 0px;
 }
 .eigth-upper-container{
     grid-row-start: 1;
