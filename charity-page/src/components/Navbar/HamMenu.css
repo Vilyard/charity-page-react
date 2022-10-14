@@ -1,0 +1,65 @@
+#ham-menu-btn{
+    background-color: #EF5F34;
+    width: 40px;
+    height: 35px;
+    border: 0;
+    padding: 5px 10px;
+    outline: 0;
+    position: relative;
+    z-index: 100;
+}
+
+#ham-menu-btn svg{
+    color: white;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+
+.menu__bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background: #191933;
+}
+.menu__content ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 60px;
+    color: #fff;
+}
+.menu__content li{
+    padding-left: 0;
+    padding-top: 30px;
+    font-size: 18px;
+   list-style-type: none;
+   text-align: left;
+   margin-left: 22px;
+}
+#ham_menu_close_btn{
+    display: block;
+    z-index: 99;
+    background: none;
+    color: #fff;
+    text-align: center;
+    margin: 30px 30px 30px auto;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+}
+.menu__close{
+    font-family: themify;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+}

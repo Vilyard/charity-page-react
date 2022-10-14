@@ -4,12 +4,13 @@ import CharitioLogo from "../Images/CharitioLogo.png"
 import { BiSearch } from "react-icons/bi"
 import "../Navbar/Navbar.css"
 import ScrollToTop from './scrollToTop'
+import HamMenu from "./HamMenu"
 function Navbar() {
     return (
         <nav className='navbar'>
             <div className='navbar-container'>
                 <div className='ham-menu'>
-                    placeholder
+                    < HamMenu />
                 </div>
                 <div className='img-container'>
                     <img src={CharitioLogo} id="charitioLogo" alt="" />
