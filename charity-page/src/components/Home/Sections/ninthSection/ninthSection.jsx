@@ -6,7 +6,7 @@ import UpperPic3 from "../../../Images/ninthSection-pic3.jpg"
 import LowerPic1 from "../../../Images/brad.jfif"
 import LowerPic2 from "../../../Images/konal.jfif"
 import LowerPic3 from "../../../Images/jenefer.jfif"
-import {BsChatText} from 'react-icons/bs'
+import { BsChatText } from 'react-icons/bs'
 function ninthSection() {
     return (
         <div className='home-ninth-section'>
@@ -27,7 +27,7 @@ function ninthSection() {
                         <div className='ninth-section-comments'>
                             <img src={LowerPic1} />
                             <p ><a href="#">Jenefer Willy</a></p>
-                           <p id='ninth-section-comments-template'> <BsChatText /> 35 </p>
+                            <p id='ninth-section-comments-template'> <BsChatText /> 35 </p>
                         </div>
                     </div>
                     <div className='ninth-lower-second-div'>

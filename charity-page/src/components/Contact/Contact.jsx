@@ -8,12 +8,12 @@ const Contact = () => {
   return (
     <div className='contact-page-container'>
 
-    < FirstSectionContact />
-    < SecondSectionContact />
-    < ThirdSectionContact /> 
-    < FourthSectionContact />
-   
-  </div>
+      < FirstSectionContact />
+      < SecondSectionContact />
+      < ThirdSectionContact />
+      < FourthSectionContact />
+
+    </div>
   )
 }
 
