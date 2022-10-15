@@ -29,7 +29,12 @@ function SixthSectionSlider() {
       <AliceCarousel
         mouseTracking
         items={items}
-        responsive={{ 0: { items: 1 }, 767: { items: 2 }, 1023: { items: 2 }, 1439:{items: 2} }}
+        responsive={{
+          0: { items: 1 },
+          767: { items: 2 },
+          1023: { items: 2 },
+          1439: { items: 2 },
+        }}
         disableDotsControls={true}
         disableButtonsControls={true}
         infinite={true}

@@ -26,33 +26,33 @@
 // }
 // export default TenthSectionSlider
 
-
-
-
-
-import React from 'react'
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
-import TenthSectionSliderData from '../Sliders/TenthSectionSliderData.jsx'
-import "../Sliders/TenthSectionSlider.css"
+import React from "react";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import TenthSectionSliderData from "../Sliders/TenthSectionSliderData.jsx";
+import "../Sliders/TenthSectionSlider.css";
 function TenthSectionSlider() {
-   const items = TenthSectionSliderData.map(type => {
-                return (
-                  <div className='item-tenthSection' key={type}>
-                    <img src={type.image} alt='test' />
-                  </div>
-                );
-              })
+  const items = TenthSectionSliderData.map((type) => {
+    return (
+      <div className="item-tenthSection" key={type}>
+        <img src={type.image} alt="test" />
+      </div>
+    );
+  });
   return (
-    <div className='tenth-carousel-container'>
-      <AliceCarousel mouseTracking items={items} responsive={{0: {items:1}, 767: {items: 4}, 1023: {items: 5}}}
-       disableDotsControls={true} disableButtonsControls={true} infinite={true} autoPlay={true} autoPlayInterval={3000}
-       autoWidth={true}
->
-      </AliceCarousel>
+    <div className="tenth-carousel-container">
+      <AliceCarousel
+        mouseTracking
+        items={items}
+        responsive={{ 0: { items: 1 }, 767: { items: 4 }, 1023: { items: 5 } }}
+        disableDotsControls={true}
+        disableButtonsControls={true}
+        infinite={true}
+        autoPlay={true}
+        autoPlayInterval={3000}
+        autoWidth={true}
+      ></AliceCarousel>
     </div>
-  )
+  );
 }
-export default TenthSectionSlider
-
-
+export default TenthSectionSlider;
