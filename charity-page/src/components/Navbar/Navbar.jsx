@@ -16,12 +16,9 @@ function Navbar() {
                     <img src={CharitioLogo} id="charitioLogo" alt="" />
                 </div>
                 <div className='center-buttons'>
-
                     <div class="dropdown">
-
                         <button className='dropbtn'> <Link to="home"> Home </Link> </button>
                         <div class="dropdown-content">
-
                             <ul className='dropdown-content-navbar'>
                                 <li className='hover-underline-animation'>Home Charity</li>
                                 <li className='hover-underline-animation'>Home Education</li>
@@ -29,11 +26,8 @@ function Navbar() {
                                 <li className='hover-underline-animation'>Home Ocean Polution</li>
                                 <li className='hover-underline-animation'>Home World Pandemic</li>
                             </ul>
-
-                            
                         </div>
                     </div>
-
                     <button>
                         <Link to="about">
                             About
